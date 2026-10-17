@@ -1,0 +1,4 @@
+# Store text files with LF in the repo so Windows and Linux checkouts do not fight over line endings
+* text=auto eol=lf
+# Windows scripts need CRLF to run in cmd.exe
+*.cmd text eol=crlf
